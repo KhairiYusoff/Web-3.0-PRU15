@@ -31,7 +31,8 @@ const ABI = [
         ],
         "payable": false,
         "stateMutability": "view",
-        "type": "function"
+        "type": "function",
+        "signature": "0x70651a18"
     },
     {
         "constant": true,
@@ -50,7 +51,8 @@ const ABI = [
         ],
         "payable": false,
         "stateMutability": "view",
-        "type": "function"
+        "type": "function",
+        "signature": "0xa3ec138d"
     },
     {
         "constant": true,
@@ -64,13 +66,15 @@ const ABI = [
         ],
         "payable": false,
         "stateMutability": "view",
-        "type": "function"
+        "type": "function",
+        "signature": "0xc56a3540"
     },
     {
         "inputs": [],
         "payable": false,
         "stateMutability": "nonpayable",
-        "type": "constructor"
+        "type": "constructor",
+        "signature": "constructor"
     },
     {
         "constant": false,
@@ -84,7 +88,8 @@ const ABI = [
         "outputs": [],
         "payable": false,
         "stateMutability": "nonpayable",
-        "type": "function"
+        "type": "function",
+        "signature": "0x0121b93f"
     },
     {
         "constant": true,
@@ -103,12 +108,13 @@ const ABI = [
         ],
         "payable": false,
         "stateMutability": "view",
-        "type": "function"
+        "type": "function",
+        "signature": "0x5a55c1f0"
     }
 ]
 
 // update this contract address with your contract address
-const address = "0x20F5B8048FCE510ad8d4a1629c243caaB1f941fb";
+const address = "0x90239f6F07C43Ce7540FDF3863e48DBe29dccAA0";
 
 var myContract = new web3.eth.Contract(ABI, address);
 
