@@ -108,7 +108,7 @@ const ABI = [
 ]
 
 // update this contract address with your contract address
-const address = "";
+const address = "0x20F5B8048FCE510ad8d4a1629c243caaB1f941fb";
 
 var myContract = new web3.eth.Contract(ABI, address);
 
